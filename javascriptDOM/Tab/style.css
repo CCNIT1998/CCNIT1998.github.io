@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: bold;
+}
+
+.tab-container {
+    margin: 3% 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    border-radius: 4px;
+    width: 40%;
+}
+
+.tab-menu {}
+
+.tab-menu ul {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.tab-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.tab-menu ul li a {
+    text-decoration: none;
+    color: #0abde3;
+    padding: 7px 25px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tab-menu ul li a.active-a {
+    background-color: rgb(255, 255, 255);
+    color: rgb(118, 120, 121);
+    border-top: 1px solid #e3e3e3;
+    box-shadow: inset 0px 1px 0px rgb(0 0 0 / 20%);
+    border-right: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+}
+
+.tab {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid #e3e3e3;
+    margin-top: 5px;
+}
+
+.tab h2 {
+    color: rgba(0, 0, 0, .7);
+}
+
+.tab p {
+    color: rgba(0, 0, 0, 0.6);
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tab-active {
+    display: block;
+}

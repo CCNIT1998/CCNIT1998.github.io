@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#accordion {
+    margin-top: 10px;
+    width: 50%;
+    margin: 3% 10%;
+}
+
+.button {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(247,247,247);
+    color: rgb(103, 133, 203);
+    cursor: pointer;
+    border: 1px solid #e3e3e3;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.button:hover {
+    background-color: rgb(195, 219, 223);
+    ;
+}
+
+.slide {
+    padding: 15px;
+    align-items: justify;
+}
